@@ -34,3 +34,10 @@ function findingTargetIndex(array,target){
 const myArray = [1,2,34,5,6,767,8];
 const ans = findingTargetIndex(myArray,6);
 console.log(ans);
+
+
+function addNumbers(a,b=0){
+    return a+b;
+}
+
+console.log(addNumbers(8));
